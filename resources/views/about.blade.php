@@ -71,8 +71,8 @@
                 </div>
 
                  <div class="links">
-                    <a href="/homepage">Homepage</a>
-                    <a href="/about">About</a>
+                    <a href="{{ route('homepage') }}">{{'homepage'}}</a>
+                    <a href="{{ route('about') }}">{{'about'}}</a>
                 </div>
             </div>
         </div>
